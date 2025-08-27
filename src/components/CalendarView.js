@@ -4,7 +4,7 @@ import moment from "moment";
 import "react-big-calendar/lib/css/react-big-calendar.css";
 import { useDispatch, useSelector } from "react-redux";
 import { selectDate } from "../store/calendarSlice";
-import BarChartPopup from "./BarChartPopup";
+import BarChartPopup from "./barchart/BarChartPopup";
 
 const localizer = momentLocalizer(moment);
 
